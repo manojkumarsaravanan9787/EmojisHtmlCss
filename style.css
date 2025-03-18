@@ -1,0 +1,90 @@
+body{
+    background-color: white;
+  
+}
+.emoji-face{
+    width:100px ;
+    height: 100px;
+    background-color:yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px;
+}
+.eye1{
+    position:absolute;
+    height: 11px;
+    width: 12px;
+    background-color:Red;
+    border-radius: 50%;
+    top: 30px;
+    left: 25px;
+ 
+}
+.eye2{
+    position:absolute;
+    height: 11px;
+    width: 12px;
+    background-color:red;
+    border-radius: 50%;
+    top: 30px;
+    left: 60px;
+ 
+}
+.mouth
+{
+    position:absolute;
+    height: 25px;
+    width: 50px;
+    background-color:black;
+    top: 55px;
+    left: 24px;
+    border-radius: 0px 0px 70px 70px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tounge{
+    position:absolute;
+    height: 25px;
+    width: 30px;
+    background-color:red;
+    top: 15px;
+    left: 10px;
+    border-radius: 50px 50px 70px 70px;
+    
+}
+.zip{
+    position:relative;
+    width: 45px;
+    height: 5px;
+    top: 65px;
+    left: 27px;
+    background-color: black;
+}
+.oval
+{
+    position:relative;
+    height: 34px;
+    width: 30px;
+    background-color:black;
+    top: 55px;
+    left: 34px;
+    border-radius: 50px 50px 50px 50px;
+   
+}
+.sad{
+    position:absolute;
+    height: 25px;
+    width: 50px;
+    background-color:black;
+    top: 55px;
+    left: 24px;
+    border-radius: 70px 70px 0px 0px;
+
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column-reverse;
+}
